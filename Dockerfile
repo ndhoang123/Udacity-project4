@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app
 
 ## Step 3:
-RUN npm install --upgrade pip && pip install -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 

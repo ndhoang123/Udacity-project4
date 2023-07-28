@@ -12,4 +12,4 @@ docker image list
 
 # Step 3: 
 # Run flask app
-docker run -p 3000:80 project4
+docker run -p 8080:80 project4

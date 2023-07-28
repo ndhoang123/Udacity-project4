@@ -58,12 +58,19 @@ source .devops/bin/activate
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
-### File explaination
+### File explanation
 Dockerfile: It is used to define the structure of Dockerfile
+
 ./make_predictions: It is for running the prediction operation of ML model
+
 ./run_docker: Running the docker file
+
 ./upload_docker: Upload the docker image into the docker hub
-./run_kubernetes: Create the kubernetes
-requirements.txt: All essential depedency
+
+./run_kubernetes: Create the Kubernetes
+
+requirements.txt: All essential dependency
+
 README.md: The markdown file is used to guide the repository
+
 app.py: The API is for house pricing prediction

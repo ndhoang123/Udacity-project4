@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app
 
 ## Step 3:
-RUN pip install --upgrade pip && pip install -r requirements.txt
+RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r requirements.txt
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 
